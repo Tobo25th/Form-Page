@@ -1,0 +1,21 @@
+body{
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(254,21,96,0.6811099439775911) 100%, rgba(108,61,61,0.9304096638655462) 100%);
+color: white;
+}
+.FlexContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    width: 65%;
+    height: 80vh;
+    flex-direction: column;
+}
+
+.FlexContainer div {
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+}

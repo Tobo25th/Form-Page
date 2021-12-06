@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="./main.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+<section class="FlexContainer">
+<div class="title">
+  <h1 id="title">Form request</h1>
+  <p id="description">This is a form with the mission to obtain variable results</p>
+</div>
+
+  <div class="content">
+    <form class="" action="index.html" method="post" id="survey-form">
+      <label id="name-label"for="">
+        <p>Name:</p>
+        <input type="text" name="" value="" id="name" placeholder="Enter your name" pattern="[A-Z]{1} [a-z] {15}">
+      </label>
+      <label id="email-label" for="">
+        <p>Email:</p>
+        <input type="email" id="email" placeholder="Enter your email" pattern="/^[a-zA-Z0-9.!#$%’*@+/=?^" required>
+      </label>
+      <label for="" id="number-label">
+        <p>Enter your age (Your most be +10 years old):</p>
+        <input type="number" name="" value="" id="number" placeholder="Enter your age" min="10" max="99" pattern="[0-9] {2}" required>
+      </label>
+      <br>
+  <label id="label-Select" for="region">
+        <p>Select your region:</p>
+    <select id="dropdown"class="" name="">
+        <option value="region">Europe</option>
+        <option value="region">America</option>
+        <option value="region">Asia</option>
+    </select>
+  </label>
+    <p>Select Your gender:</p>
+    <input type="radio" name="gender" value="Male" placeholder="Select your gender ">
+      <label for="Male">Male</label>
+      <input type="radio" name="gender" value="Female" placeholder="">
+      <label for="Female">Female</label>
+      <br>
+      <p>Select your favorite color:</p>
+      <label for="Red">
+        <input type="checkbox" name="" value="Red">
+   Red </label>
+   <label for="Green">
+     <input type="checkbox" name="" value="Green"> Green
+  </label>
+  <label for="Blue">
+  <input type="checkbox" name="" value="Blue"> Blue
+  </label>
+  <br>
+  <br>
+  <textarea name="textarea" rows="10" cols="30">Add a comment</textarea>
+  <br>
+  <input type="submit" name="" value="Submit" id="submit">
+    </form>
+  </div>
+</section>
+
+  </body>
+</html>
